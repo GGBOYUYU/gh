@@ -16,3 +16,37 @@ A clustering analysis of Chinese cities based on economic structure
    ```bash
    git clone https://github.com/GGBOYUYU/gh.git
    cd gh
+   # gh
+
+基于经济结构的中国城市聚类分析
+
+## 📌 项目简介
+
+本项目利用机器学习方法，对中国地级市的产业结构进行分类和比较研究。使用的数据涵盖2000至2023年，主要来源为国家统计局和各类统计年鉴。
+
+## 🧠 使用的技术
+
+- Python
+- K-Means 聚类
+- 主成分分析（PCA）
+- 异常值处理、缺失值填补
+- 特征工程与重要性分析
+- 可视化（如线箱图、雷达图等）
+
+## 📁 项目结构
+
+```bash
+.
+├── README.md
+├── Winsorize.py                  # 异常值压缩处理
+├── pca降维.py                    # 主成分分析
+├── 异常值个数.py
+├── 异常值处理.py
+├── 特征工程.py
+├── 特征重要性可视化.py
+├── 线箱图.py
+├── 缺失值处理.py
+├── 聚类.py
+├── 肘部法.py
+├── 随机森林分类.py
+
